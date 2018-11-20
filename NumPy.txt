@@ -1,0 +1,9 @@
+NumPy
+
+Sorting, searching, counting functions
+https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.sort.html
+
+Dealing with indices
+https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.indexing.html
+np.take
+

@@ -1,0 +1,77 @@
+
+Multiprocessing
+
+Theory
+https://docs.python.org/2/library/multiprocessing.html
+
+Using Map
+http://chriskiehl.com/article/parallelism-in-one-line/
+
+Using Apply_Async
+https://www.programcreek.com/python/example/81376/multiprocessing.pool.apply_async
+
+Comparing Map/Apply/Async
+http://blog.shenwei.me/python-multiprocessing-pool-difference-between-map-apply-map_async-apply_async/
+
+Advanced Intro
+https://code.tutsplus.com/tutorials/introduction-to-multiprocessing-in-python--cms-30281
+
+pd.Apply
+https://stackoverflow.com/questions/37078880/status-of-parallelization-of-pandas-apply
+
+
+Sample Code 1: 
+-----------------------------------------
+import time
+from multiprocessing import Pool
+
+def f(a):
+    print ('f(' + str(a) + ')')
+    return True
+
+pool = Pool(processes=2)
+result = pool.apply_async(f, (1,))
+print (result.get())
+pool.close()
+pool.join()
+-----------------------------------------
+
+Sample Code 2: 
+-----------------------------------------
+import multiprocessing
+import time
+ 
+def square(x):
+    # This is is reeeeally slow way to square numbers.
+    time.sleep(0.5)
+    return x**2
+ 
+print ("Creating pool with 5 workers")
+pool = multiprocessing.Pool(processes=5000)
+ 
+print ("Invoking apply(square, 3)")
+print ("Result: %s" % (pool.apply(square, [3]),))
+ 
+print ("Invoking apply_async(square, 4)")
+result = pool.apply_async(square, [4])
+print ("Waiting for result...")
+start_time = time.time()
+print ("Result: %s (%.2f secs)" % (result.get(), time.time() - start_time))
+ 
+print ("Invoking map(square, [5,6,7,8,9,10])")
+print ("Result: %r" % (result.get(),))
+print ("Invoking map_async(square, [11, 12, 13, 14, 15, 16])")
+result = pool.map_async(square, [11, 12, 13, 14, 15, 16])
+print ("Waiting for result...")
+start_time = time.time()
+print ("Result: %r (%.2f secs)" % (result.get(), time.time() - start_time))
+ 
+print ("Invoking apply_async(square, X) once each for X in 17-24")
+results = [(i, pool.apply_async(square, [i])) for i in range(17, 100)]
+start_time = time.time()
+for i, result in results:
+    print ("Result (%d): %s (%.2f secs)" % (i, result.get(), time.time() - start_time))-----------------------------------------
+
+
+
+

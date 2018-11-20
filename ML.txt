@@ -1,0 +1,128 @@
+Machine Learning
+
+Scikit-Learn http://scikit-learn.org/stable/
+Tutorial http://scikit-learn.org/stable/tutorial/basic/tutorial.html
+Notebooks https://github.com/amueller/scipy-2016-sklearn/tree/master/notebooks
+Documentation http://scikit-learn.org/stable/documentation.html
+
+Blogs:
+https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11?imm_mid=0faf23
+http://enhancedatascience.com
+https://brohrer.github.io/blog.html
+https://ml.berkeley.edu/blog/tutorials/
+https://machinelearningmastery.com
+https://tomaugspurger.github.io/modern-6-visualization.html
+https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md
+
+Models Cheat Sheet:
+http://leportella.com/cheatlist/2018/05/20/models-cheat-list.html
+
+On Logistic Regression:
+http://nbviewer.jupyter.org/github/justmarkham/DAT8/blob/master/notebooks/12_logistic_regression.ipynb
+
+Precision, Recall, F1 explained:
+https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c
+http://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/
+https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9
+
+Regularization:
+https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a
+https://www.quora.com/What-is-regularization-in-machine-learning
+
+Overfitting:
+https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/
+https://medium.com/greyatom/what-is-underfitting-and-overfitting-in-machine-learning-and-how-to-deal-with-it-6803a989c76
+
+Unsupervised Learning Blogs: 
+https://medium.com/machine-learning-for-humans/unsupervised-learning-f45587588294
+https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/	
+
+Association Rules and the Apriori Algorithm Tutorial
+https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html
+
+Principal Component Analysis
+PCA Theory Explained:
+https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c
+https://georgemdallas.wordpress.com/2013/10/30/principal-component-analysis-4-dummies-eigenvectors-eigenvalues-and-dimension-reduction/
+https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+PCA using Python SkLearn:
+https://github.com/mGalarnyk/Python_Tutorials/blob/master/Sklearn/PCA/PCA_Data_Visualization_Iris_Dataset_Blog.ipynb
+
+Different Dimension Reduction Methods:
+https://blog.paperspace.com/dimension-reduction-with-principal-component-analysis/
+
+Hierarchical Clustering:
+https://joernhees.de/blog/2015/08/26/scipy-hierarchical-clustering-and-dendrogram-tutorial/
+
+ROC Curves:
+there's a difference bet. AUROC from CV and 
+
+https://acutecaretesting.org/en/articles/roc-curves-what-are-they-and-how-are-they-used
+
+Regularization/Penalities in Logistic Regression: 
+https://www.kdnuggets.com/2016/06/regularization-logistic-regression.html
+http://scikit-learn.org/stable/auto_examples/linear_model/plot_logistic_l1_l2_sparsity.html
+https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c
+http://openclassroom.stanford.edu/MainFolder/DocumentPage.php?course=MachineLearning&doc=exercises/ex5/ex5.html
+
+Cross-Validation
+https://machinelearningmastery.com/k-fold-cross-validation/
+*********************************
+lr CV vs k folds 
+	(LRCV) optimizing lambda to reduce beta coefficients, prevent cost function from being minimized by overfitting
+	(K FOLDS) run test/train multiple times on subsets of data and evaluate subsetted models — to ensure that model is not being overfitted on any one part of the data — subset data into k folds. fit model on all but one fold & test on excluded fold
+	(Summary) kfolds evaluates performance of model with existing, single set of parameters whereas LRCV optimizes model parameters
+*********************************
+
+General Evaluation Metrics
+https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/
+
+Saving models using Pickle
+https://stackabuse.com/scikit-learn-save-and-restore-models/
+https://docs.python.org/2/library/pickle.html
+
+
+Random Forest:
+*********************************
+prof T explanation
+	decision trees — at any step pick the feature that’s the strongest predictor or divider of data and divide data into yes/no with probabilities.. continue steps and ultimately reply with y/n
+
+	random forest builds decision trees by on subsets of test data and features, then out of bag score is the cumulative decision of all the trees 
+
+	ensemble methods — mathematically shown that a many weak models cumulatively work much better in the real world than one strong model 
+
+	doing ensemble method for logistic regression wouldnt make much of a difference since you’re evaluating linear relationships anyway… with random forest the relationships between features are more complex
+
+	out of bag score uses all trees that have not seen that particular data point to predict its value and then averages these predictions
+
+	n_estimators = num of trees in forest
+*********************************
+
+General
+https://medium.com/@hjhuney/implementing-a-random-forest-classification-model-in-python-583891c99652
+http://dataaspirant.com/2017/06/26/random-forest-classifier-python-scikit-learn/
+
+Understanding OOB Errors
+https://scikit-learn.org/stable/auto_examples/ensemble/plot_ensemble_oob.html
+https://www.kaggle.com/c/titanic/discussion/3554
+https://stackoverflow.com/questions/43641799/high-oob-error-rate-for-random-forest
+
+
+Making OOB predictions
+https://datascience.stackexchange.com/questions/28847/oob-decision-function-doesnt-match-prediction-in-scikit-learn-randomforest
+
+Tuning hyperparameters
+https://stats.stackexchange.com/questions/111968/random-forest-how-to-handle-overfitting
+https://datascience.stackexchange.com/questions/1028/do-random-forest-overfit
+https://stackoverflow.com/questions/20463281/how-do-i-solve-overfitting-in-random-forest-of-python-sklearn
+https://www.reddit.com/r/MachineLearning/comments/3z1hed/how_do_you_determine_whether_youre_overfitting/
+https://www.quora.com/Do-random-forests-tend-to-overfit-as-more-trees-are-added
+https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/
+https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
+https://www.kaggle.com/hadend/tuning-random-forest-parameters
+https://www.kaggle.com/general/4092
+https://medium.com/all-things-ai/in-depth-parameter-tuning-for-random-forest-d67bb7e920d
+https://stats.stackexchange.com/questions/36165/does-the-optimal-number-of-trees-in-a-random-forest-depend-on-the-number-of-pred
+https://www.researchgate.net/post/How_to_determine_the_number_of_trees_to_be_generated_in_Random_Forest_algorithm
+

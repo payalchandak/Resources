@@ -1,0 +1,17 @@
+Statistics
+
+Biostatistics Handbook
+http://www.biostathandbook.com
+
+Statistics in Python
+http://www.scipy-lectures.org/packages/statistics/index.html
+
+Beginner/intermediate stats videos 
+https://www.youtube.com/user/marinstatlectures/about
+
+Disproportionality Analysis: 
+http://openvigil.sourceforge.net/doc/DPA.pdf
+
+Monte Carlo Simulations
+https://www.riskamp.com/files/RiskAMP%20-%20Monte%20Carlo%20Simulation.pdf
+https://towardsdatascience.com/the-house-always-wins-monte-carlo-simulation-eb82787da2a3

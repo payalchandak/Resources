@@ -1,0 +1,38 @@
+Pharmacology
+
+DrugBank
+https://www.drugbank.ca
+https://www.drugbank.ca/releases/latest
+
+AEOLUS-Standardized adverse drug reaction database
+https://www.nature.com/articles/sdata201626
+
+Learning Videos:
+-Youtube videos for Pharmacology
+https://www.youtube.com/channel/UC-i2EBYXH6-GAglvuDIaufQ/videos
+
+Systems Pharmacology:
+-Systems biology approaches for identifying adverse drug reactions and elucidating their underlying biological mechanisms
+http://doi.wiley.com/10.1002/wsbm.1323
+
+Medical Ontology Research - Drug-related Publications
+https://mor.nlm.nih.gov/pubs/rxnav.html
+
+OHDSI
+Website https://ohdsi.org/
+Paper https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4815923/
+
+DrugBank
+https://www.drugbank.ca
+Tutorial https://www.drugbank.ca/help
+
+PubChem
+Resource https://github.com/mcs07/PubChemPy
+
+Chembl
+Resource https://github.com/chembl/chembl_webresource_client
+
+Resources:
+https://www.biostars.org/p/242799/
+https://github.com/dhimmel/drugbank
+https://github.com/russodanielp/drugbank

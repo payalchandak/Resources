@@ -1,0 +1,60 @@
+
+Server
+ssh uni@server.dbmi.columbia.edu
+
+Copy Files
+	File local to mimir
+	scp -r GitHub/sex_risks/LR pc2800@mimir.dbmi.columbia.edu:/home/pc2800
+
+	Directory local to mimir
+	scp -r GitHub/sex_risks/LR pc2800@mimir.dbmi.columbia.edu:/home/pc2800
+
+	Mimir to munnin
+	scp -r LR pc2800@munnin.dbmi.columbia.edu:/home/pc2800
+
+	Munnin to mimir 
+	scp -r LR.py pc2800@mimir.dbmi.columbia.edu:/home/pc2800
+
+	Mimir to local
+	
+	
+
+Bash Scripts
+	.sh Files = shell executable files 
+
+	vi FILE.sh
+	chmod +x FILE.sh
+	bash FILE.sh
+
+	Basics		https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+	Tutorial	https://linuxconfig.org/bash-scripting-tutorial
+	For Loop 	https://www.cyberciti.biz/faq/bash-for-loop/
+	
+
+Screens
+http://aperiodic.net/screen/quick_reference#getting_in_test
+https://linuxize.com/post/how-to-use-linux-screen/#basic-linux-screen-usage
+http://dasunhegoda.com/unix-screen-command/263/
+
+	screen -S NAME
+	screen ls
+	screen -S NUM -X quit
+
+
+Submitting Jobs
+
+	qsub
+	http://bioinformatics.mdc-berlin.de/intro2UnixandSGE/sun_grid_engine_for_beginners/how_to_submit_a_job_using_qsub.html
+	
+	qstat
+	
+	bsub
+
+	man bsub
+
+
+
+
+
+
+	

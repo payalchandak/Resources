@@ -1,0 +1,57 @@
+Visuals
+
+Data Visualization using Pandas
+https://tomaugspurger.github.io/modern-6-visualization.html
+
+Matplotlib https://matplotlib.org
+Tutorial https://github.com/rougier/matplotlib-tutorial
+Reference https://matplotlib.org/contents.html
+
+Seaborn https://seaborn.pydata.org
+Tutorial: https://elitedatascience.com/python-seaborn-tutorial
+Intro: https://seaborn.pydata.org/introduction.html
+Gallery: https://seaborn.pydata.org/examples/index.html
+
+Color Names List:
+https://stackoverflow.com/questions/22408237/named-colors-in-matplotlib?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+Fundamentals of Data Visualisation
+http://serialmentor.com/dataviz/index.html
+
+Prettify:
+https://github.com/dunovank/jupyter-themes
+theme terminal command -- starred on github for more details
+jt -t grade3 -T -altp -nfs 11 -fs 10 -tfs 10 -lineh 110 -cellw 85% -cursw 1.5
+
+Plotly:
+Cheatsheet 	https://images.plot.ly/plotly-documentation/images/python_cheat_sheet.pdf
+General Reference 	https://plot.ly/python/
+Multiple Traces 	https://plot.ly/pandas/line-and-scatter/
+Offline & MatPlotLib	https://plot.ly/matplotlib/getting-started/#offline-use	
+
+Interactive Data Visualization Library -- Dash
+https://dash.plot.ly/getting-started
+
+Networks/Graphs 
+http://networkx.github.io
+https://www.r-graph-gallery.com/network/
+ttp://www.cytoscape.org
+https://pygraphviz.github.io/index.html
+https://gephi.org
+http://igraph.org/python/
+http://www.cytoscape.org/index.html
+
+Medium Blog
+	https://medium.com/@Xander_Petrov/clustering-of-graphs-and-assemblage-search-part-one-introduction-tools-and-the-spiky-circles-f53eb26a580
+
+Bubble Chart
+https://bl.ocks.org/mbostock/4063269
+
+Fancy Diagrams Gallery
+https://github.com/d3/d3/wiki/gallery
+
+MatPlotLib Colormap Normalization
+https://matplotlib.org/users/colormapnorms.html
+
+Connected Scatter Plot
+https://python-graph-gallery.com/connected-scatter-plot/

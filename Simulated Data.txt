@@ -1,0 +1,9 @@
+
+Simulating Data
+
+https://www.martinos.org/mne/stable/auto_examples/simulation/plot_simulate_raw_data.html
+
+
+Generating Fake Data
+
+https://github.com/joke2k/faker

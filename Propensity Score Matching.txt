@@ -1,0 +1,12 @@
+
+Propensity Score Matching
+
+Jupyter demo
+http://nbviewer.jupyter.org/github/kellieotto/StatMoments/blob/master/PSM.ipynb
+
+Pymatch package explained
+https://medium.com/@bmiroglio/introducing-the-pymatch-package-6a8c020e2009
+
+Theory/Usage presentations
+http://npcrc.org/files/NPCRC.Observational-PropensityScoreMethodsWkshop.10-20-14.pdf
+https://www.mc.vanderbilt.edu/crc/workshop_files/2008-04-11.pdf

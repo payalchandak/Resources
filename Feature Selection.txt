@@ -1,0 +1,22 @@
+Feature Selection 
+
+Intro Explanation 
+https://towardsdatascience.com/why-how-and-when-to-apply-feature-selection-e9c69adfabf2
+
+Python Examples of Univariate, Feature Importance & Correlation Heatmap 
+https://towardsdatascience.com/feature-selection-techniques-in-machine-learning-with-python-f24e7da3f36e
+
+Python SkLearn Code Recursive Feat Elimination & Feature Importance 
+https://machinelearningmastery.com/feature-selection-in-python-with-scikit-learn/
+
+SkLearn Feature Selection Docs
+https://scikit-learn.org/stable/modules/feature_selection.html
+
+ML Feature Engineering Textbook
+https://perso.limsi.fr/annlor/enseignement/ensiie/Feature_Engineering_for_Machine_Learning.pdf
+
+CMU Feature Selection Textbook
+https://www.cs.cmu.edu/~kdeng/thesis/feature.pdf
+
+SelectFromModel
+https://towardsdatascience.com/feature-selection-using-random-forest-26d7b747597f

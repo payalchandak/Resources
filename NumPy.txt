@@ -7,3 +7,13 @@ Dealing with indices
 https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.indexing.html
 np.take
 
+Groupby / Counts for Unique Values 
+https://stackoverflow.com/questions/28663856/how-to-count-the-occurrence-of-certain-item-in-an-ndarray-in-python
+
+
+np.unique(arr, return_counts=True)
+np.stack hstack vstack
+np.isin -- returns [True, True, ... False]
+np.where 
+np.nonzero -- returns indices 
+np.take(arr, indices) - get new array of values from specific indices 

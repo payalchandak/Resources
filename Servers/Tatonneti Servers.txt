@@ -1,0 +1,20 @@
+Server
+ssh uni@server.dbmi.columbia.edu
+
+Copy Files
+	File local to mimir
+	scp -r GitHub/sex_risks/LR pc2800@mimir.dbmi.columbia.edu:/home/pc2800
+
+	Directory local to mimir
+	scp -r GitHub/sex_risks/LR pc2800@mimir.dbmi.columbia.edu:/home/pc2800
+
+	Dir local to munnin 
+	scp -r GitHub/sex_risks/LR pc2800@munnin.dbmi.columbia.edu:/home/pc2800
+
+	Mimir to munnin
+	scp -r LR pc2800@munnin.dbmi.columbia.edu:/home/pc2800
+
+	Munnin to mimir 
+	scp -r LR.py pc2800@mimir.dbmi.columbia.edu:/home/pc2800
+
+	Mimir to local

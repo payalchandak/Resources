@@ -1,0 +1,95 @@
+Random Forest
+
+SkLearn Docs 
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+
+*********************************
+
+Prof T explanation
+
+	decision trees — at any step pick the feature that’s the strongest predictor or divider of data and divide data into yes/no with probabilities.. continue steps and ultimately reply with y/n
+
+	random forest builds decision trees by on subsets of test data and features, then out of bag score is the cumulative decision of all the trees 
+
+	ensemble methods — mathematically shown that a many weak models cumulatively work much better in the real world than one strong model 
+
+	doing ensemble method for logistic regression wouldn't make much of a difference since you’re evaluating linear relationships anyway… with random forest the relationships between features are more complex
+
+	out of bag score uses all trees that have not seen that particular data point to predict its value and then averages these predictions
+
+*********************************
+
+General Explanations 
+https://towardsdatascience.com/the-random-forest-algorithm-d457d499ffcd
+
+The OG guide
+https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm#remarks
+
+Example Applications 
+https://jakevdp.github.io/PythonDataScienceHandbook/05.08-random-forests.html
+
+Code Run Through 
+https://www.datascience.com/resources/notebooks/random-forest-intro
+
+*********************************
+
+Parameters 
+
+	For predictive power 
+n_estimators = num trees
+	over several 100 trees, predictive power has diminishing returns 
+max_features = num features considered at each node split 
+min_sample_leaf = min number of samples required to be at a leaf node. Doesn't split at node if num samples would fall below -- higher minimum smooths out model // shortens trees 
+
+	For speed
+n_jobs = num processors (-1 is unlimited)
+random_state = replicable model, int sets seed for randomization 
+
+	Model Specifications 
+bootstrap : sub-sample data for each tree or if False, use whole dataset per tree
+oob_score : estimates generalization accuracy from oob samples 
+class_weight : handle imbalanced data (ie more F than M) -- "balanced" auto adjusts weights by class freq
+
+*********************************
+
+Overfitting 
+
+https://mljar.com/blog/random-forest-overfitting/
+Adding more trees doesn't increase the generalization error (doesn't cause overfitting) 
+Having super-complex individual trees causes overfitting --- Pruning trees is good!
+
+
+*********************************
+
+Hyperparameter Tuning
+
+grid search: all possible combinations of given discrete parameter spaces
+
+
+*********************************
+
+Precision/Accuracy Evaluation
+
+TO REVIEW: 
+
+https://www.kaggle.com/hadend/tuning-random-forest-parameters
+https://medium.com/all-things-ai/in-depth-parameter-tuning-for-random-forest-d67bb7e920d
+https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
+https://www.kaggle.com/general/4092
+https://stats.stackexchange.com/questions/344220/how-to-tune-hyperparameters-in-a-random-forest
+https://stats.stackexchange.com/questions/36165/does-the-optimal-number-of-trees-in-a-random-forest-depend-on-the-number-of-pred
+https://www.researchgate.net/post/How_to_determine_the_number_of_trees_to_be_generated_in_Random_Forest_algorithm
+https://medium.com/@hjhuney/implementing-a-random-forest-classification-model-in-python-583891c99652
+
+
+*********************************
+
+Understanding OOB Errors
+
+Basically some samples are in all the threes so you get np.nan because u cant predict out-of-bag
+
+https://scikit-learn.org/stable/auto_examples/ensemble/plot_ensemble_oob.html
+https://www.kaggle.com/c/titanic/discussion/3554
+https://stackoverflow.com/questions/43641799/high-oob-error-rate-for-random-forest
+
+

@@ -55,3 +55,9 @@ https://matplotlib.org/users/colormapnorms.html
 
 Connected Scatter Plot
 https://python-graph-gallery.com/connected-scatter-plot/
+
+JupyterLab Shortcuts
+https://towardsdatascience.com/how-to-customize-jupyterlab-keyboard-shortcuts-72321f73753d
+
+Plt Errorbars
+https://jakevdp.github.io/PythonDataScienceHandbook/04.03-errorbars.html

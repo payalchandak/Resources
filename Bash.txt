@@ -1,0 +1,33 @@
+
+
+Bash Scripts
+	.sh Files = shell executable files 
+
+	vi FILE.sh
+	chmod +x FILE.sh
+	bash FILE.sh
+
+	Basics		https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+	Tutorial	https://linuxconfig.org/bash-scripting-tutorial
+	For Loop 	https://www.cyberciti.biz/faq/bash-for-loop/
+	
+
+Screens
+http://aperiodic.net/screen/quick_reference#getting_in_test
+https://linuxize.com/post/how-to-use-linux-screen/#basic-linux-screen-usage
+http://dasunhegoda.com/unix-screen-command/263/
+
+	screen -S NAME
+	screen ls
+	screen -S NUM -X quit
+
+
+Submitting Jobs
+	
+	bsub
+
+
+
+
+
+	

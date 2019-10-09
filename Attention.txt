@@ -1,0 +1,27 @@
+
+
+Facebook research -- fairseq
+https://github.com/facebookresearch/fairseq
+
+Google attention 
+https://arxiv.org/pdf/1706.03762.pdf
+
+Attention + RNN blog
+https://distill.pub/2016/augmented-rnns/
+http://akosiorek.github.io/ml/2017/10/14/visual-attention.html
+https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html#whats-wrong-with-seq2seq-model
+https://skymind.com/wiki/attention-mechanism-memory-network\
+https://towardsdatascience.com/intuitive-understanding-of-attention-mechanism-in-deep-learning-6c9482aecf4f
+http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/
+https://machinelearningmastery.com/how-does-attention-work-in-encoder-decoder-recurrent-neural-networks/
+
+
+LSTM 
+http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+
+CNN vs RNN 
+https://arxiv.org/abs/1803.01271
+
+locally connected layers
+https://prateekvjoshi.com/2016/04/12/understanding-locally-connected-layers-in-convolutional-neural-networks/

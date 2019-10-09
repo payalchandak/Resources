@@ -1,0 +1,59 @@
+Deep Learning
+
+PyTorch course : https://classroom.udacity.com/courses/ud730
+Andrew Ng: https://www.coursera.org/specializations/deep-learning
+
+proper DNN/comp vis: http://vision.stanford.edu/teaching/cs231n/
+
+Books
+https://www.deeplearningbook.org/
+http://neuralnetworksanddeeplearning.com/index.html
+
+
+Activation Functions 
+https://www.analyticsvidhya.com/blog/2017/10/fundamentals-deep-learning-activation-functions-when-to-use-them/
+
+ReLU	
+https://medium.com/machine-intelligence-report/how-do-neural-networks-work-57d1ab5337ce
+
+Backprop
+https://medium.com/datathings/neural-networks-and-backpropagation-explained-in-a-simple-way-f540a3611f5e
+
+Matrix calculus
+ https://explained.ai/matrix-calculus/index.html
+
+Cross entropy loss calculations
+https://gombru.github.io/2018/05/23/cross_entropy_loss/
+
+Dropout
+https://machinelearningmastery.com/dropout-for-regularizing-deep-neural-networks/
+
+
+–––––––––––––––––––––––––––––––––––––CNNs–––––––––––––––––––––––––––––––––––––
+
+CNNs
+https://medium.freecodecamp.org/an-intuitive-guide-to-convolutional-neural-networks-260c2de0a050
+http://cs231n.github.io/convolutional-networks/#conv
+
+
+CNN Backprop 
+https://becominghuman.ai/back-propagation-in-convolutional-neural-networks-intuition-and-code-714ef1c38199
+https://towardsdatascience.com/gentle-dive-into-math-behind-convolutional-neural-networks-79a07dd44cf9
+https://www.youtube.com/watch?v=BvrWiL2fd0M
+
+
+–––––––––––––––––––––––––––––––––––––RNNs–––––––––––––––––––––––––––––––––––––
+
+http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
+https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks
+https://victorzhou.com/blog/intro-to-rnns/
+
+BPTT 
+https://peterroelants.github.io/posts/rnn-implementation-part01/
+https://towardsdatascience.com/only-numpy-vanilla-recurrent-neural-network-back-propagation-practice-math-956fbea32704
+
+
+Courses: 
+https://www.coursera.org/learn/sequence-models-tensorflow-gcp
+https://www.coursera.org/learn/nlp-sequence-models
+

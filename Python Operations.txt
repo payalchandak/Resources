@@ -1,0 +1,19 @@
+
+
+Iterators & Generators
+
+https://nvie.com/posts/iterators-vs-generators/
+https://www.programiz.com/python-programming/generator
+https://hackaday.com/2018/09/19/learn-to-loop-the-python-way-iterators-and-generators-explained/
+https://stackabuse.com/python-generators/
+
+
+__getitem__ 
+	allows indexing -- when you evaluate a[i] Python calls a.__getitem__(i) 
+
+
+
+Lambda, Map, Filter
+https://medium.com/better-programming/lambda-map-and-filter-in-python-4935f248593
+
+

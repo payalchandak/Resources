@@ -1,0 +1,17 @@
+Math
+
+CMU Math for ML class
+https://www.youtube.com/playlist?list=PL7y-1rk2cCsAqRtWoZ95z-GMcecVG5mzA
+	Recommended Textbooks
+Matrix Analysis (2nd ed.). Roger A. Horn, Charles R. Johnson. Cambridge University Press, 2013.
+Introduction to Probability (2nd ed.). Dimitri P. Bertsekas, John N. Tsitsiklis. Athena Scientific, 2008.
+The Elements of Statistical Learning (2nd ed.). Trevor Hastie, Robert Tibshirani, Jerome Friedman. Springer, 2008.
+
+Textbooks 
+https://www.kdnuggets.com/2018/04/7-books-mathematical-foundations-data-science.html
+
+!!! https://towardsdatascience.com/learning-maths-for-machine-learning-and-deep-learning-5509c097ee83
+
+https://mml-book.github.io/book/mml-book.pdf
+
+ http://math.mit.edu/~gs/linearalgebra/

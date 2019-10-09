@@ -1,0 +1,9 @@
+
+Natural Language Processing
+
+Prosody 
+Word embeddings as features 
+
+Stanford Core NLP 
+https://stanfordnlp.github.io/CoreNLP/
+

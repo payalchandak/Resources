@@ -1,0 +1,79 @@
+Python & Basics
+
+Downloading Python:
+https://www.python.org/downloads/
+
+Downloading Anaconda and Jupyter (recommended environments for using python):
+https://www.anaconda.com/download/#macos
+http://jupyter.org/install.html
+
+Command for accessing Jupiter notebooks from terminal
+~/anaconda3/bin/jupyter notebook
+
+Python for non-programmers resources:
+https://wiki.python.org/moin/BeginnersGuide/NonProgrammers
+
+Python for programmers resources:
+https://wiki.python.org/moin/BeginnersGuide/Programmers
+
+Git and Github
+https://git-scm.com/book/en/v2
+
+Terminal/command line
+https://gist.github.com/poopsplat/7195274
+https://www.datascienceatthecommandline.com/index.html
+
+Package/Module Resources:
+Numpy http://www.numpy.org
+Tutorial https://docs.scipy.org/doc/numpy-dev/user/quickstart.html
+Reference https://docs.scipy.org/doc/numpy-dev/user/
+
+Pandas http://pandas.pydata.org
+Tutorial https://pandas.pydata.org/pandas-docs/stable/10min.html
+Reference https://pandas.pydata.org/pandas-docs/stable/tutorials.html
+Cheat Sheet http://leportella.com/cheatlist/2017/11/22/pandas-cheat-list.html#multiple-filters
+
+Iterating over dataframe efficiently: https://medium.com/@rtjeannier/pandas-101-cont-9d061cb73bfc
+
+SciPy https://www.scipy.org
+Tutorial https://www.scipy.org/getting-started.html
+Reference https://docs.scipy.org/doc/scipy/reference/tutorial/index.html
+PDF http://www.scipy-lectures.org/_downloads/ScipyLectures-simple.pdf
+
+Scikit-Learn http://scikit-learn.org/stable/
+Tutorial http://scikit-learn.org/stable/tutorial/basic/tutorial.html
+Notebooks https://github.com/amueller/scipy-2016-sklearn/tree/master/notebooks
+Documentation http://scikit-learn.org/stable/documentation.html
+
+Additional tutorials/notebooks:
+https://github.com/kuleshov/cs228-material/blob/master/tutorials/python/cs228-python-tutorial.ipynb
+
+Learning Videos:
+-YouTube playlist for learning Python for beginners
+https://www.youtube.com/playlist?list=PLlgoYPTU6ljCEggReCMF0m0760QTot9Qz&app=desktop
+-Self paced, free beginner course for learning python
+https://www.edx.org/course/introduction-python-absolute-beginner-microsoft-dev236x-1
+
+Data science:
+-Python handbook
+https://jakevdp.github.io/PythonDataScienceHandbook/
+
+Prettify:
+theme terminal command -- starred on github for more details
+jt -t grade3 -T -altp -nfs 11 -fs 10 -tfs 10 -lineh 110 -cellw 85% -cursw 1.5
+
+Plotly:
+Cheatsheet https://images.plot.ly/plotly-documentation/images/python_cheat_sheet.pdf
+
+Main function: 
+https://www.journaldev.com/17752/python-main-function
+https://www.guru99.com/learn-python-main-function-with-examples-understand-main.html
+
+Config.py files:
+https://martin-thoma.com/configuration-files-in-python/
+https://docs.python.org/3.4/library/configparser.html
+
+Virtual Environments: 
+cd env/bin ; source activate ; deactivate 
+https://realpython.com/python-virtual-environments-a-primer/
+https://docs.python-guide.org/dev/virtualenvs/

@@ -81,48 +81,16 @@ https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-
 Saving models using Pickle
 https://stackabuse.com/scikit-learn-save-and-restore-models/
 https://docs.python.org/2/library/pickle.html
-
-
-Random Forest:
-*********************************
-prof T explanation
-	decision trees — at any step pick the feature that’s the strongest predictor or divider of data and divide data into yes/no with probabilities.. continue steps and ultimately reply with y/n
-
-	random forest builds decision trees by on subsets of test data and features, then out of bag score is the cumulative decision of all the trees 
-
-	ensemble methods — mathematically shown that a many weak models cumulatively work much better in the real world than one strong model 
-
-	doing ensemble method for logistic regression wouldnt make much of a difference since you’re evaluating linear relationships anyway… with random forest the relationships between features are more complex
-
-	out of bag score uses all trees that have not seen that particular data point to predict its value and then averages these predictions
-
-	n_estimators = num of trees in forest
 *********************************
 
-General
-https://medium.com/@hjhuney/implementing-a-random-forest-classification-model-in-python-583891c99652
-http://dataaspirant.com/2017/06/26/random-forest-classifier-python-scikit-learn/
-
-Understanding OOB Errors
-https://scikit-learn.org/stable/auto_examples/ensemble/plot_ensemble_oob.html
-https://www.kaggle.com/c/titanic/discussion/3554
-https://stackoverflow.com/questions/43641799/high-oob-error-rate-for-random-forest
+Random Forest (in separate note) 
+*********************************
 
 
-Making OOB predictions
-https://datascience.stackexchange.com/questions/28847/oob-decision-function-doesnt-match-prediction-in-scikit-learn-randomforest
+Ridge Regression 
+https://towardsdatascience.com/ridge-regression-for-better-usage-2f19b3a202db
+https://www.youtube.com/watch?v=Q81RR3yKn30
 
-Tuning hyperparameters
-https://stats.stackexchange.com/questions/111968/random-forest-how-to-handle-overfitting
-https://datascience.stackexchange.com/questions/1028/do-random-forest-overfit
-https://stackoverflow.com/questions/20463281/how-do-i-solve-overfitting-in-random-forest-of-python-sklearn
-https://www.reddit.com/r/MachineLearning/comments/3z1hed/how_do_you_determine_whether_youre_overfitting/
-https://www.quora.com/Do-random-forests-tend-to-overfit-as-more-trees-are-added
-https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/
-https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
-https://www.kaggle.com/hadend/tuning-random-forest-parameters
-https://www.kaggle.com/general/4092
-https://medium.com/all-things-ai/in-depth-parameter-tuning-for-random-forest-d67bb7e920d
-https://stats.stackexchange.com/questions/36165/does-the-optimal-number-of-trees-in-a-random-forest-depend-on-the-number-of-pred
-https://www.researchgate.net/post/How_to_determine_the_number_of_trees_to_be_generated_in_Random_Forest_algorithm
+Boosting 
+https://towardsdatascience.com/boosting-and-adaboost-clearly-explained-856e21152d3e
 

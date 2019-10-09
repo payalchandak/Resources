@@ -15,3 +15,24 @@ http://openvigil.sourceforge.net/doc/DPA.pdf
 Monte Carlo Simulations
 https://www.riskamp.com/files/RiskAMP%20-%20Monte%20Carlo%20Simulation.pdf
 https://towardsdatascience.com/the-house-always-wins-monte-carlo-simulation-eb82787da2a3
+
+Coursera: Inferential Statistics by University of Amsterdam
+
+Mutual Information vs Correlation 
+https://stats.stackexchange.com/questions/81659/mutual-information-versus-correlation
+https://www.quora.com/What-is-the-difference-between-mutual-information-and-correlation
+
+Entropy and Mutual Information
+https://people.cs.umass.edu/~elm/Teaching/Docs/mutInf.pdf
+
+Calculate confidence intervals
+http://hamelg.blogspot.com/2015/11/python-for-data-analysis-part-23-point.html	
+
+
+Survival analysis + cox model
+https://towardsdatascience.com/survival-analysis-part-a-70213df21c2e
+https://towardsdatascience.com/survival-analysis-intuition-implementation-in-python-504fde4fcf8e
+https://lifelines.readthedocs.io/en/latest/Survival%20Regression.html
+
+
+

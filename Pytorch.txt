@@ -1,0 +1,13 @@
+
+PyTorch
+
+60 min tutorial
+https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html
+
+
+NN.sequential
+https://discuss.pytorch.org/t/when-should-i-use-nn-modulelist-and-when-should-i-use-nn-sequential/5463
+
+
+in G Collab
+https://pytorch.org/tutorials/beginner/colab.html

@@ -1,0 +1,6 @@
+
+ ssh-add -K .ssh/id_naplab
+
+payal@129.236.160.229
+
+ssh -NfL 8891:localhost:8891 payal@129.236.160.229 -i .ssh/id_naplab
